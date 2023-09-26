@@ -1,0 +1,41 @@
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+$backgroundImage: url('@/images/back.jpg');
+
+body {
+    margin: 0;
+    background-image: $backgroundImage;
+}
+
+.containerStyle {
+margin: 0px 166px;
+}
+
+.header {
+    background-image: url(back.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    //     .header-logo {
+    //         width: 16px;
+    //         height: 6px;
+    //         flex-shrink: 0;
+    //     }
+    // }
+
+.header-line{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+
+    margin-right: 25px;
+}
